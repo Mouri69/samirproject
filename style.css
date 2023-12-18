@@ -52,7 +52,7 @@ nav.scrolled {
 .header{
     background-color:#f44336;
     padding:30px 40px;
-    width:150vh;
+    width:100%;
     color:white;
     text-align:center;
 }
