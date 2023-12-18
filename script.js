@@ -13,7 +13,9 @@ function newElement(event) {
 }
 
 function toggleChecked(event) {
-    if (event.target.tagName === 'LI') {
+    if (event.target.tagName === 'LI') { 
         event.target.classList.toggle('checked');
     }
 }
+//when accessing the tagName property, it returns the tag name in uppercase
+//So, 'LI' is used to match the uppercase representation of the tag name.
