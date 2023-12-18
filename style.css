@@ -48,3 +48,56 @@ form label{
 nav.scrolled {
     background-color: #333; /* Change to your desired background color */
 }
+
+.header{
+    background-color:#f44336;
+    padding:30px 40px;
+    width:150vh;
+    color:white;
+    text-align:center;
+}
+
+.listitem{
+    margin:0;
+    padding:0;
+}
+
+.listitem li{
+    cursor:pointer;
+    
+    padding:12px 8px 12px 40px;
+    background:#eee;
+    font-size:18px;
+    transition: 0.2s;
+    list-style:none;
+}
+
+
+.listitem li:nth-child(odd){
+    background-color: #f9f9f9;
+}
+
+.listitem li:hover {
+    background: #ddd;
+}
+
+.listitem li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+.addBtn {
+  padding: 5px;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.addBtn:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: #bbb;
+}
