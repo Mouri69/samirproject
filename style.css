@@ -104,3 +104,9 @@ nav.scrolled {
     transition: 0.3s ease-in-out;
     background-color: #bbb;
 }
+
+@media screen and (max-width:700px){
+    form{
+        padding: 50px;
+    }
+}
