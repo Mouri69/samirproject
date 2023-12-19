@@ -55,7 +55,7 @@ nav.scrolled {
 .header{
     background-color:#f44336;
     padding:30px 40px;
-    width:100%;
+    width:120vh;
     color:white;
     text-align:center;
 }
@@ -108,5 +108,9 @@ nav.scrolled {
 @media screen and (max-width:700px){
     form{
         padding: 50px;
+    }
+    
+    .header{
+        width:100%;
     }
 }

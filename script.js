@@ -1,8 +1,8 @@
 function newElement(event) {
     var li = document.createElement("li");
     var inputValue = document.getElementById("listinput").value;
-    var t = document.createTextNode(inputValue);
-    li.appendChild(t);
+    var textnode = document.createTextNode(inputValue);
+    li.appendChild(textnode);
     if (inputValue === '') {
         alert("You must write something!");
     } else {
