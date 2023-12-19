@@ -45,6 +45,9 @@ section:nth-child(6)
 form label{
     color:white
 }
+form{
+    padding:100px;
+}
 nav.scrolled {
     background-color: #333; /* Change to your desired background color */
 }
